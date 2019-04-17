@@ -1,0 +1,31 @@
+
+Time : Tue Apr 16 23:21:19 2019	Time Taken : 0.00035309791564941406 seconds
+Time : Tue Apr 16 23:22:15 2019	Time Taken : 0.0003094673156738281 seconds
+Time : Tue Apr 16 23:23:24 2019	Time Taken : 0.0003597736358642578 seconds
+Time : Tue Apr 16 23:28:26 2019	Time Taken : 3.2722558975219727 seconds     //large file added.
+Time : Tue Apr 16 23:28:41 2019	Time Taken : 3.299083948135376 seconds
+Time : Tue Apr 16 23:28:46 2019	Time Taken : 3.256739854812622 seconds
+Time : Tue Apr 16 23:28:50 2019	Time Taken : 3.245333671569824 seconds      //parallel implemeted.
+
+more large file added.
+
+Time : Wed Apr 17 00:47:22 2019	Time Taken : 78.95949673652649 seconds      4 processes. parallel
+Time : Wed Apr 17 00:49:33 2019	Time Taken : 85.08703517913818 seconds      processes not defined
+Time : Wed Apr 17 00:52:01 2019	Time Taken : 61.395100831985474 seconds     8 process
+Time : Wed Apr 17 00:53:39 2019	Time Taken : 56.510589599609375 seconds     16 process
+Time : Wed Apr 17 01:00:01 2019	Time Taken : 71.39809465408325 seconds      1024 chunk
+Time : Wed Apr 17 01:02:30 2019	Time Taken : 85.67742562294006 seconds      65536 chunk
+Time : Wed Apr 17 01:04:15 2019	Time Taken : 86.87889361381531 seconds      65535
+Time : Wed Apr 17 01:06:44 2019	Time Taken : 81.94631600379944 seconds      4096 chunck removing multiprocessing parallism
+Time : Wed Apr 17 01:10:07 2019	Time Taken : 60.72428631782532 seconds      no multiprocessing.
+Time : Wed Apr 17 14:11:32 2019	Time Taken : 34.98789930343628 seconds
+Time : Wed Apr 17 14:13:28 2019	Time Taken : 6.761077404022217 seconds
+Time : Wed Apr 17 14:15:13 2019	Time Taken : 6.7450597286224365 seconds
+Time : Wed Apr 17 14:17:32 2019	Time Taken : 6.739000082015991 seconds
+Time : Wed Apr 17 14:18:17 2019	Time Taken : 6.7495832443237305 seconds
+Time : Wed Apr 17 14:31:37 2019	Time Taken : 0.00048279762268066406 seconds
+Time : Wed Apr 17 14:31:58 2019	Time Taken : 0.01123046875 seconds
+Time : Wed Apr 17 14:51:53 2019	Time Taken : 0.027901649475097656 seconds
+Time : Wed Apr 17 14:54:41 2019	Time Taken : 0.0005922317504882812 seconds
+Time : Wed Apr 17 14:56:11 2019	Time Taken : 0.0005855560302734375 seconds
+Time : Wed Apr 17 14:57:17 2019	Time Taken : 0.000637054443359375 seconds

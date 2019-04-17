@@ -1,0 +1,15 @@
+---File Extension Finder---
+Application name: Assignment11_1.py
+
+Filepath= /home/kakarot/Documents/Machine Learning/Assignments/Assignment 11/Demo/some 2 (copy).py
+Hash of file is :c0399f549dc85765d6712af4a1206399
+Filepath= /home/kakarot/Documents/Machine Learning/Assignments/Assignment 11/Demo/some.txt
+Hash of file is :c0399f549dc85765d6712af4a1206399
+Filepath= /home/kakarot/Documents/Machine Learning/Assignments/Assignment 11/Demo/some 2.py
+Hash of file is :c0399f549dc85765d6712af4a1206399
+Filepath= /home/kakarot/Documents/Machine Learning/Assignments/Assignment 11/Demo/SORTR/some 2 (copy).py
+Hash of file is :c0399f549dc85765d6712af4a1206399
+Filepath= /home/kakarot/Documents/Machine Learning/Assignments/Assignment 11/Demo/SORTR/some 2.py
+Hash of file is :c0399f549dc85765d6712af4a1206399
+Filepath= /home/kakarot/Documents/Machine Learning/Assignments/Assignment 11/Demo/SORTR/some.py
+Hash of file is :c0399f549dc85765d6712af4a1206399

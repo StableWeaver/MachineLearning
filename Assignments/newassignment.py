@@ -21,7 +21,7 @@ with open('newassignment.py', 'r') as file :
   filedata = file.read()
 
 # Replace the target string
-filedata = filedata.replace('ANO=13', 'ANO={}'.format(ANO+1))
+filedata = filedata.replace('ANO=12', 'ANO={}'.format(ANO+1))
 
 # Write the file out again
 with open('newassignment.py', 'w') as file:
