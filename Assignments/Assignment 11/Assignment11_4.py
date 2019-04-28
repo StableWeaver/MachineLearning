@@ -24,14 +24,12 @@ def directory(path):
         for foldername,subfolder,filename in os.walk(path):
             #print("Current folder is: "+foldername)
             for filen in filename:
-                symlnkp=os.path.join(foldername,os.path.splitext(filen)[0]+".lnk")
                 filen=os.path.join(foldername,filen)
                 hash=hm.md5(filen)
                 print(filen)
                 if hash in hash_dict:
                     addtolog(filen,fd)
                     os.remove(filen) 
-                    os.symlink(hash_dict.get(hash),symlnkp)
                      
                 else:
                     hash_dict.update({hash:filen})                   
@@ -47,11 +45,11 @@ def main():
         print("ERR: Invalid Number of Args")
 
     if sys.argv[1].lower=="-h":
-        print("Script is designed to add address of duplicate file in the LOG.TXT and creates a symbolic link for deleted file" )
+        print("Script is designed to create a lof file in desired folder" )
         exit()
 
     if sys.argv[1].lower=="-u":
-        print("Usage: Appname  AppName FolderName")
+        print("Usage: Appname FolderName")
         exit() 
 
     if len(sys.argv)!=2:

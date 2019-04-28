@@ -31,7 +31,6 @@ def directory(path):
                 if hash in hash_dict:
                     addtolog(filen,fd)
                     os.remove(filen) 
-                    os.symlink(hash_dict.get(hash),symlnkp) 
                 else:
                     hash_dict.update({hash:filen})                   
     else:
